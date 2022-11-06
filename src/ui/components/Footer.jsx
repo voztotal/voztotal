@@ -16,10 +16,10 @@ export const Footer = () => {
     emailjs.sendForm ('service_zy29tr1', 'template_o9i20ra', e.target, 'o4xwhJnPtKjHSPt82')
       .then((result) => {
           console.log(result.text);
-          alert('Mensaje enviado con éxito')
+          // alert('Mensaje enviado con éxito')
       }, (error) => {
           console.log(error.text);
-          alert(error.message)
+          // alert(error.message)
       });
       e.target.reset();
 
