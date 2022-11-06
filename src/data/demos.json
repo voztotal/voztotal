@@ -2,7 +2,7 @@
       {
             "id": 1,
             "title": "Telefonía IP",
-            "image": "../../public/assets/img/phone.jpg"
+            "image": "../assets/img/phone.jpg"
       },
       {
             "id": 2,
