@@ -11,7 +11,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm ('gmailMessage', 'template_ophs0fq', e.target, 'GekHIjK3GW9rBETQE')
+    emailjs.sendForm ('service_zy29tr1', 'template_ophs0fq', e.target, 'o4xwhJnPtKjHSPt82')
       .then((result) => {
           console.log(result.text);
           alert('Mensaje enviado con éxito')

@@ -13,7 +13,7 @@ export const Footer = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm ('gmailMessage', 'template_o9i20ra', e.target, 'GekHIjK3GW9rBETQE')
+    emailjs.sendForm ('service_zy29tr1', 'template_o9i20ra', e.target, 'o4xwhJnPtKjHSPt82')
       .then((result) => {
           console.log(result.text);
           alert('Mensaje enviado con éxito')
