@@ -1,0 +1,48 @@
+[
+      {
+          "id": "1",
+          "title": "TELEFONIA IP",
+          "description": "Nuestra tecnología 100% SIP permite una reducción de costos ya que no requerimos infraestructura dedicada. Reemplaza tu línea analógica o digital por una cuenta SIP y disfruta de los ahorros así como de una mejor tecnología.",
+          "footer": "VOZTOTAL te ofrece PBX en nube o solo el servicio de terminación de llamadas al mejor costo del mercado.",
+          "icon": "phone"
+      },
+      {
+          "id": "2",
+          "title": "CONECTIVIDAD DE REDES",
+          "description": "Utilizando tecnologías basadas en software los clientes pueden disminuir sus gastos hasta en un 50% utilizando medios de acceso basados en Internet con redes con tecnología SDWAN vs. Redes Privadas con Tecnologías como MPLS. ",
+          "footer": "VOZTOTAL crea tu propia red privada sin invertir miles de dólares en servicios dedicados. ",
+          "icon": "signal-5"
+      },
+      {
+        "id": "3",
+        "title": "INTERNET DEDICADO",
+        "description": "El servicio de Internet Dedicado es uno de los productos mas especializados para Voztotal debido a sus múltiples interconexiones (peerings) con los TIER-1 más importantes a nivel global. ",
+        "footer": "En VOZTOTAL te ofrecemos hasta 10 Gb de velocidad simétrica.",
+        "icon": "laptop"
+    },
+      {
+          
+          "id": "4",
+          "title": "CAMPAÑAS SMS",
+          "description": "Nuestro sistema de SMS permite a las empresas comunicar sus ofertas, promociones, descuentos y campañas de mkt a sus clientes más especiales. ",
+          "footer":"",
+          "icon": "message-alt-detail"
+      },
+      {
+          
+          "id": "5",
+          "title": "SEG. EN CIBER-ATAQUES",
+          "description": "Los ciberataques son el 3er riesgo mundial en el 2019, México es el país #1 en robo de información, con pérdidas económicas por ciberataques costando $5.5 BUSD",
+          "footer":"",
+          "icon": "lock"
+      },
+      {
+          
+          "id": "6",
+          "title": "SOPORTE TI",
+          "description": "Asistencia técnica en el área de informática para resolver cualquier inconveniente que sucedan con los equipos electrónicos dentro de una empresa.",
+          "footer":"",
+          "icon": "support"
+      }
+  ]
+  

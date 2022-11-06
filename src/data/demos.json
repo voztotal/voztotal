@@ -1,0 +1,32 @@
+[
+      {
+            "id": 1,
+            "title": "Telefonía IP",
+            "image": "../../public/assets/img/phone.jpg"
+      },
+      {
+            "id": 2,
+            "title": "Internet",
+            "image": "../assets/img/wifi.webp"
+      },
+      {
+            "id": 3,
+            "title": "Campañas SMS",
+            "image": "../assets/img/movil.jpg"
+      },
+      {
+            "id": 4,
+            "title": "Conectividad de redes",
+            "image": "../assets/img/networks.jpg"
+      },
+      {
+            "id": 5,
+            "title": "Seguridad en ciberataques ",
+            "image": "../assets/img/cybersecurity.jpg"
+      },
+      {
+            "id": 6,
+            "title": "Soporte TI",
+            "image": "../assets/img/support.jpg"
+      }
+]

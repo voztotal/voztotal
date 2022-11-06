@@ -1,0 +1,51 @@
+
+.section-separation-clients{
+  padding: 5rem 0;
+}
+.heading__primary-clients {
+    width: 80%;
+    margin: 0 auto;
+}
+.clientsSection__info {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.clientsSection__img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .clientsSection__column {
+    width: 45%;
+  }
+}
+.clientsSection__text{
+    text-align: justify;
+}
+
+.clients__footer {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient( to bottom right, rgba(6, 8, 15, 0.626) 0% , rgba(7, 10, 18, 0.797) 100%), url("../../assets/img/woman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__text {
+  padding: 1rem;
+  color: var(--color-white);
+  font-size: 50px;
+  opacity: inherit;
+  font-weight: 600;
+}

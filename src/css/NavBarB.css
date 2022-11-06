@@ -1,0 +1,16 @@
+
+ .nav-img{
+    margin: .5rem 3rem;
+    width: 90px; 
+}
+
+a:hover{
+    color: var(--color-red) !important;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 4rem;
+    top: 2rem;
+    
+}
+ 

@@ -1,0 +1,72 @@
+
+.polity .heading__primary {
+      margin-bottom: 8rem;
+}
+
+.polity__description {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      place-items: center;
+      gap: 5rem;
+}
+
+.polity__imageBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.polity__image {
+      width: 80%;
+}
+
+.polity__information {
+      font-size: 1.8rem;
+}
+
+.question {
+      margin-bottom: 5rem;
+}
+
+.question .heading__secondary {
+      text-align: left;
+      font-size: 3rem;
+      margin-bottom: 0;
+}
+
+.question .heading__secondary span {
+      font-size: 6rem;
+}
+
+.question__header {
+      border: 1px solid #ddd;
+      padding: 3rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+}
+
+.question__information {
+      font-size: 1.8rem;
+      width: 100%;
+      border: 1px solid #ddd;
+      padding: 3rem;
+      margin: 0 auto;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.question__item {
+      margin-bottom: 4rem;
+}
+
+.question__text p {
+      margin-bottom: 2rem;
+}
+
+.question__text ul {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      list-style: disc;
+      margin-left: 4rem;
+}

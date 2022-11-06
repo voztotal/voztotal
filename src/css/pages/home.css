@@ -1,0 +1,229 @@
+.home {
+      padding: 5rem 0;
+}
+
+/* ################################### */
+/* HERO */
+/* ################################### */
+
+.hero__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+}
+
+@media screen and ( min-width: 768px) {
+      .hero__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+      }
+      
+}
+
+.hero__image img {
+      width: 100%;
+}
+
+.hero__text {
+      margin-bottom: 6.4rem;
+      color: var(--color-black);
+}
+
+.hero__text p {
+      font-weight: 600;
+      font-size: 2rem;
+}
+
+/* ################################### */
+/* DESCRIPTION */
+/* ################################### */
+
+.description {
+      margin: 8rem 0;
+      background-color: var(--color-font);
+      color: var(--color-white);
+      font-weight: 400;
+}
+
+.description__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+}
+
+@media screen and (min-width:768px) {
+.description__grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      place-items: center;
+}
+}
+      
+.description__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3rem;
+}
+
+.description__image img {
+      width: 100%;
+}
+
+.description__text {
+      font-size: 1.8rem;
+      margin: 0 auto;
+      width: 80%;
+}
+
+.description__text p {
+      margin-bottom: 2rem;
+}
+
+.description__connection {
+      font-size: 3.6rem;
+      text-align: center;
+      font-weight: 300;
+      letter-spacing: 5px;
+      margin-bottom: 2rem;
+}
+
+.description span {
+      color: var(--color-red);
+}
+
+/* ################################### */
+/* SERVICES */
+/* ################################### */
+
+.servicies__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+      .servicies__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5rem;
+      }
+      
+}
+
+.service__information {
+      margin-bottom: 2rem;
+}
+
+.service__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+}
+
+.service__header .heading__tertiary {
+      cursor: pointer;
+}
+
+.service__iconBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      border-radius: 50%;
+      border: 1px solid var(--color-red);
+}
+
+.service__icon {
+      font-size: 3rem;
+      color: var(--color-red);
+}
+
+.service__modal {
+      transition: all .4s ease-out;
+      height: fit-content;
+      margin: auto auto;
+      opacity: 0;
+      font-size: 1.8rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-black);
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.service__show {
+      opacity: 1;
+}
+
+/* ################################### */
+/* DEMOS */
+/* ################################### */
+
+.demos {
+      margin-bottom: 8rem;
+      
+}
+
+.demos__list {
+      padding: 0;
+      /* display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem; */
+}
+@media screen and (min-width: 768px) {
+      .demos__list {
+            display: flex;
+            flex-wrap: wrap;
+            
+      }
+      
+}
+@media screen and (min-width: 1440px) {
+      .demos__list {
+          
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+      }
+      
+}
+
+.demo {
+      width: 250px;
+      overflow: hidden;
+      border-radius: 9px;
+      margin: 0 auto;
+      cursor: pointer;
+      transition: all .4s ease-out;
+}
+
+.demo:hover {
+      transform: scale(1.1) rotate(-8deg);
+}
+
+.demo:nth-child(5) {
+      grid-column: 2 / 3;
+}
+
+.demo__imageBox {
+      display: flex;
+      justify-content: center;
+}
+
+.demo__image {
+      object-fit: cover;
+      height: 25rem;
+      max-width: 25rem;
+}
+
+.demo__heading {
+      background-color: var(--color-red);
+      padding: 1rem;
+      font-size: 1.6rem;
+      color: var(--color-white);
+      text-align: center;
+}

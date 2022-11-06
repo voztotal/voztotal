@@ -1,0 +1,85 @@
+.heading__primary-center{
+  text-align: center;
+  width: 100%;
+}
+.contact{
+  margin-top: 15rem;
+    padding: 5rem 0;
+}
+.contact__intro{
+    width: 60%;
+  font-size: 30px;
+  margin: 0 auto;
+  color: var(--color-red);
+}
+
+/* ################################### */
+/* FORM */
+/* ################################### */
+
+.contact__main{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  .contact__mainSection {
+    height: fit-content;
+    padding: 2rem;
+    box-shadow: 0 5px 5px var(--color-red);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  @media screen and (min-width: 768px) {
+    .contact__mainSection {
+        width: 45%;
+    }
+    .schedule-p{
+        margin-left: 1rem;
+    }
+    
+}
+.mainSection_email{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-bg-black);
+}
+.mainSection_email:hover{
+  color: var(--color-red);
+
+}
+.mainSection__subtitle {
+    margin: 2rem auto;
+    color: var(--color-font);
+      font-size: 28px;
+      font-weight: 600;
+  }
+  .mainSection_ul {
+    width: 100%;
+    text-align: justify;
+  }
+ 
+  
+  .phones_subtitle_info{
+      text-align: left;
+      margin-left: -1rem;
+      cursor: pointer;
+    }
+
+    /* ================================= */
+    /* schedule */
+    /* ==================================== */
+    .contact__schedule{
+      margin-top: 10rem;
+      box-shadow: 0 5px 5px var(--color-red);
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+        width: 50%;
+    }
+    .schedule-subtitle{
+      padding-left: 1rem;
+      text-align: left !important;
+    }
