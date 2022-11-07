@@ -1,8 +1,10 @@
-import { DemosList, ServicesList } from '../components';
+
 import hero from '../../assets/img/bg-purple.jpg';
 import logo from '../../assets/img/logo.png';
 import '../../css/pages/home.css';
 import React from 'react';
+import { ServicesList } from '../components/ServicesList';
+import { DemosList } from '../components/DemosList';
 
 export const Home = () => {
       return (
