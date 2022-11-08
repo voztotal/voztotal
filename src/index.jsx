@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { VozTotalApp } from './VozTotalApp.js'
+import { VozTotalApp } from './VozTotalApp.jsx'
 import './css/styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

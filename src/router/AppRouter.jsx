@@ -1,11 +1,11 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import React from 'react';
-import { Home } from "../site/pages/Home.js";
-import { About } from "../site/pages/About.js";
-import { Clients } from "../site/pages/Clients.js";
-import { Testimonials } from "../site/pages/Testimonials.js";
-import { Polity } from "../site/pages/Polity.js";
-import { Contact } from "../site/pages/Contact.js";
+import { Home } from "../site/pages/Home.jsx";
+import { About } from "../site/pages/About.jsx";
+import { Clients } from "../site/pages/Clients.jsx";
+import { Testimonials } from "../site/pages/Testimonials.jsx";
+import { Polity } from "../site/pages/Polity.jsx";
+import { Contact } from "../site/pages/Contact.jsx";
 
 export const AppRouter = () => {
       return (

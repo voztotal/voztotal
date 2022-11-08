@@ -3,8 +3,8 @@ import hero from '../../assets/img/bg-purple.jpg';
 import logo from '../../assets/img/logo.png';
 import '../../css/pages/home.css';
 import React from 'react';
-import { ServicesList } from '../components/ServicesList.js';
-import { DemosList } from '../components/DemosList.js';
+import { ServicesList } from '../components/ServicesList.jsx';
+import { DemosList } from '../components/DemosList.jsx';
 
 export const Home = () => {
       return (
