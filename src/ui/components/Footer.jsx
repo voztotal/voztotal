@@ -33,16 +33,14 @@ export const Footer = () => {
 
             <ul className="footer__list">
               <li className="footer__link">
-                Anaxágoras 29, Piedad Narvarte, Benito Juárez, 03000 Ciudad de
-                México, CDMX
+              <strong>Ciudad de México, CDMX:</strong> Anaxágoras 29, Piedad Narvarte, Benito Juárez, 03000 
               </li>
               <li className="footer__link">
-                Avenida Armando Birlaín Shaffler 2001, Centro Sur, 76090
-                Querétaro, Qro.
+              <strong>Querétaro, Qro:</strong> Avenida Armando Birlaín Shaffler 2001, Centro Sur, 76090
               </li>
               <li className="footer__link">
-                Torre Magnia Corporate Center Calle 15 No. 503, Piso 7, Col.
-                Altabrisa, 97130 Mérida, Yuc.
+              <strong>Mérida, Yuc:</strong>Torre Magnia Corporate Center Calle 15 No. 503, Piso 7, Col.
+                Altabrisa, 97130 
               </li>
               <li className="footer__link">
                 <a href="mailto: contacto@voztotal.mx">contacto@voztotal.mx</a>
@@ -52,9 +50,8 @@ export const Footer = () => {
               </li>
               <li className="footer__link">
                 Whatsapp:{" "}
-                <a href="https://wa.me/525569690965?text= " target="_blank">
-                  (55) 696 909 65
-                </a>
+                <a href="https://wa.me/525588802100?text= " target="_blank">
+                (55) 888 02 100 </a>
               </li>
             </ul>
           </div>
@@ -64,6 +61,11 @@ export const Footer = () => {
             <h3 className="footer__heading">Menú</h3>
 
             <ul className="footer__list">
+            <li className="footer__link">
+                <Link onClick={() => window.scrollTo(0, 0)} to="/inicio">
+                  Inicio
+                </Link>
+              </li>
               <li className="footer__link">
                 <Link onClick={() => window.scrollTo(0, 0)} to="/nosotros">
                   Nosotros

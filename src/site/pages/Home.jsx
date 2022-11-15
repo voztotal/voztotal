@@ -5,6 +5,7 @@ import '../../css/pages/home.css';
 import React from 'react';
 import { ServicesList } from '../components/ServicesList.jsx';
 import { DemosList } from '../components/DemosList.jsx';
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
       return (
@@ -16,8 +17,10 @@ export const Home = () => {
                                           <h1 className='heading__primary'>¡VozTotal es tu mejor aliado!</h1>
                                           <p>¿Buscas optimizar costos en tus facturas de: Internet, Telefonía, Campañas, SMS o Soporte de TI?</p>
                                     </div>
-
+                                    <Link to='/contacto'>
                                     <button className="btn">Contáctanos</button>
+                                    </Link>
+
                               </div>
 
                               <div className="hero__image">

@@ -123,9 +123,7 @@
       margin-bottom: 2rem;
 }
 
-.service__header .heading__tertiary {
-      cursor: pointer;
-}
+
 
 .service__iconBox {
       display: flex;
@@ -143,21 +141,23 @@
 
 .service__modal {
       transition: all .4s ease-out;
-      height: fit-content;
+      width: 100%;
+      height: 42rem;
       margin: auto auto;
-      opacity: 0;
       font-size: 1.8rem;
       padding: 2rem;
       text-align: center;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      align-content: center;
       color: var(--color-black);
       border-radius: 5px;
       border: 1px solid #ddd;
       box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
-.service__show {
-      opacity: 1;
-}
+
 
 /* ################################### */
 /* DEMOS */

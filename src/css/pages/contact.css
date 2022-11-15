@@ -28,7 +28,7 @@
     column-gap: 2rem;
   }
   .contact__mainSection {
-    height: fit-content;
+    height: 560px;
     padding: 2rem;
     box-shadow: 0 5px 5px var(--color-red);
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
@@ -37,11 +37,19 @@
   @media screen and (min-width: 768px) {
     .contact__mainSection {
         width: 45%;
+        height: 660px;
     }
     .schedule-p{
         margin-left: 1rem;
     }
     
+}
+@media screen and (min-width: 1024px) {
+  .contact__mainSection {
+      
+      height: 530px;
+  }
+  
 }
 .mainSection_email{
   display: inline-block;
@@ -77,7 +85,8 @@
       margin-top: 10rem;
       box-shadow: 0 5px 5px var(--color-red);
       box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
-        width: 50%;
+        width: fit-content;
+        padding: 1rem;
     }
     .schedule-subtitle{
       padding-left: 1rem;

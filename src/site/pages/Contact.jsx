@@ -72,16 +72,14 @@ export const Contact = () => {
           <h3>Dirección en: </h3>
           <ul className="mainSection_ul">
             <li className="section__ul_item">
-              Anaxágoras 29, Piedad Narvarte, Benito Juárez, 03000 Ciudad de
-              México, CDMX
+            <strong>Ciudad de México, CDMX:</strong> Anaxágoras 29, Piedad Narvarte, Benito Juárez, 03000 
             </li>
             <li className="section__ul_item">
-              Avenida Armando Birlaín Shaffler 2001, Centro Sur, 76090
-              Querétaro, Qro.
+            <strong>Querétaro, Qro:</strong> Avenida Armando Birlaín Shaffler 2001, Centro Sur, 76090
             </li>
             <li className="section__ul_item">
-              Torre Magnia Corporate Center Calle 15 No. 503, Piso 7, Col.
-              Altabrisa, 97130 Mérida, Yuc.
+              T<strong>Mérida, Yuc:</strong>Torre Magnia Corporate Center Calle 15 No. 503, Piso 7, Col.
+                Altabrisa, 97130 
             </li>
           </ul>
 
@@ -93,8 +91,8 @@ export const Contact = () => {
               </li>
               <li className="section__ul_item">
                 <strong>WhatsApp:</strong>{" "}
-                <a href="https://wa.me/525569690965?text= " target="_blank">
-                  (55) 696 909 65
+                <a href="https://wa.me/525588802100?text= " target="_blank">
+                (55) 888 02 100
                 </a>
               </li>
             </ul>
