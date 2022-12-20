@@ -29,24 +29,10 @@ export const Home = () => {
                         </div>
                   </section>
 
-                  <section className="description section-separation">
+                  <section className="demos section-separation">
                         <div className="container">
-                              <h2 className="heading__secondary heading__secondary--white">Empresa Mexicana con +13 años de experiencia</h2>
-                              <p className='description__connection'>Easy <span>Connection</span></p>
-
-                              <div className="description__grid">
-                                    <div className="description__image">
-                                          <img src={ logo } alt="Logo VozTotal" />
-                                    </div>
-
-                                    <div className="description__text">
-                                          <p>Comenzamos en el 2009 con las mejores prácticas operativas en telecomunicaciones para las principales empresas de Ciudad de México.</p> 
-                                          
-                                          <p>Tenemos la flexibilidad para entender las actividades y necesidades del cliente con soluciones que excedan sus expectativas, por eso hacemos que nuestros aliados reduzcan los costos de sus facturas.</p>
-                                          
-                                          <p>El cliente, como eje de nuestro negocio, nos permite tener una atención permanente y personalizada integrada en todos nuestros servicios.</p>
-                                    </div>
-                              </div>
+                              <h2 className="heading__secondary">Quiero un DEMO de: </h2>
+                              <DemosList />
                         </div>
                   </section>
 
@@ -63,12 +49,7 @@ export const Home = () => {
                         </div>
                   </section>
 
-                  <section className="demos section-separation">
-                        <div className="container">
-                              <h2 className="heading__secondary">Quiero un DEMO de: </h2>
-                              <DemosList />
-                        </div>
-                  </section>
+                 
 
             </div>
       )

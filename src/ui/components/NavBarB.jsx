@@ -48,16 +48,23 @@ export const NavBarB = () => {
             <Nav.Link
               onClick={() => window.scrollTo(0, 0)}
               as={Link}
-              to="/politica"
+              to="/contacto"
+            >
+              Contacto
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => window.scrollTo(0, 0)}
+              as={Link}
+              to="/politica-de-privacidad"
             >
               Politica de Privacidad
             </Nav.Link>
             <Nav.Link
               onClick={() => window.scrollTo(0, 0)}
               as={Link}
-              to="/contacto"
+              to="/terminos-y-condiciones"
             >
-              Contacto
+              TYC
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

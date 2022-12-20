@@ -30,5 +30,8 @@ a:hover{
         width: 80px; 
         opacity: 1;
     }
+    .navbar-nav{
+        column-gap: 10px;
+    }
     
 }

@@ -53,8 +53,12 @@
       padding: 3rem;
       margin: 0 auto;
       box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+      overflow-x: scroll;
 }
 
+.question__information::-webkit-scrollbar{
+      display: none;
+}
 .question__item {
       margin-bottom: 4rem;
 }
@@ -69,4 +73,11 @@
       gap: 2rem;
       list-style: disc;
       margin-left: 4rem;
+}
+
+/* ============= CONDITIONS ================ */
+
+
+.fa-handshake{
+      font-size: 98px;
 }
