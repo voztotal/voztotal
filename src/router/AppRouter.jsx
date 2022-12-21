@@ -6,7 +6,7 @@ import { Clients } from "../site/pages/Clients.jsx";
 import { Testimonials } from "../site/pages/Testimonials.jsx";
 import { Polity } from "../site/pages/Polity.jsx";
 import { Contact } from "../site/pages/Contact.jsx";
-import Condiciones from "../site/pages/Condiciones.jsx";
+import Conditions from "../site/pages/Conditions.jsx";
 
 export const AppRouter = () => {
       return (
@@ -17,7 +17,7 @@ export const AppRouter = () => {
                   <Route path="/testimonios" element={ <Testimonials /> } />
                   <Route path="/contacto" element={ <Contact /> } />
                   <Route path="/politica-de-privacidad" element={ <Polity /> } />
-                  <Route path="/terminos-y-condiciones" element={ <Condiciones /> } />
+                  <Route path="/terminos-y-condiciones" element={ <Conditions /> } />
                   <Route path="/*" element={ <Navigate to="/home" /> } />
             </Routes>
       )
