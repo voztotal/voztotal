@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/pages/polity.css";
 
-const Conditions = () => {
+export const Conditions = () => {
   return (
     <div className="container polity">
       <header className="section-separation">
@@ -1505,4 +1505,4 @@ const Conditions = () => {
   );
 };
 
-export default Conditions;
+ 

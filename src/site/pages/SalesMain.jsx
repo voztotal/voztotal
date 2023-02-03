@@ -4,8 +4,9 @@ import "../../css/pages/contact.css";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 
-export const Contact = () => {
-  const form = useRef();
+export const SalesMain = () => {
+ 
+    const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -120,5 +121,6 @@ export const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
+
