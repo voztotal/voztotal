@@ -1,0 +1,27 @@
+# VOZTOTAL — Telefonía IP y Telecomunicaciones para Empresas en México
+
+> Empresa mexicana con más de 13 años de experiencia en soluciones de
+> telefonía IP, conectividad SD-WAN, internet dedicado con peering Tier-1,
+> campañas SMS, ciberseguridad y soporte TI para clientes empresariales
+> y gubernamentales. Fundada en 2009. Ubicada en Querétaro, México.
+
+## Servicios
+
+- Telefonía IP / Cloud PBX — PBX en nube y terminación de llamadas al mejor costo del mercado
+- Conectividad SD-WAN — Reducción de gastos hasta un 50% comparado con redes MPLS privadas
+- Internet Dedicado — Múltiples interconexiones (peerings) con los TIER-1 más importantes a nivel global
+- Campañas SMS — Marketing directo para comunicar ofertas, promociones y descuentos
+- Seguridad en Ciberataques — Protección de servidores e infraestructura empresarial
+- Soporte TI — Asistencia técnica en informática para empresas
+
+## Propuesta de Valor
+
+VOZTOTAL reduce costos de telecomunicaciones empresariales hasta en un 50% utilizando
+tecnologías SD-WAN versus redes privadas MPLS. Clientes de sectores financiero, gubernamental
+y de salud confían en VOZTOTAL para su infraestructura crítica de comunicaciones.
+
+## Contacto
+
+- Email: contacto@voztotal.mx
+- Dirección: Boulevard de Los Gobernadores, Monte Blanco II, Querétaro, QRO 76087, México
+- Sitio web: https://voztotal.mx
