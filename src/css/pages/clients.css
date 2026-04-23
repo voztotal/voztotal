@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient( to bottom right, rgba(6, 8, 15, 0.626) 0% , rgba(7, 10, 18, 0.797) 100%), url("../../assets/img/woman.jpg");
+  background-image: linear-gradient( to bottom right, rgba(6, 8, 15, 0.626) 0% , rgba(7, 10, 18, 0.797) 100%), url("../../assets/img/woman.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }

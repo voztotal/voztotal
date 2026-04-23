@@ -1,5 +1,5 @@
 
-import hero from '../../assets/img/bg-purple.jpg';
+import hero from '../../assets/img/bg-purple.webp';
 import logo from '../../assets/img/logo.png';
 import '../../css/pages/home.css';
 import React from 'react';

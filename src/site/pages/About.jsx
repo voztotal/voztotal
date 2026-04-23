@@ -1,7 +1,7 @@
 import React from "react";
-import workingTeam from "../../assets/img/team.jpg";
-import technologies from "../../assets/img/tech.jpg";
-import practices from "../../assets/img/practices.jpg";
+import workingTeam from "../../assets/img/team.webp";
+import technologies from "../../assets/img/tech.webp";
+import practices from "../../assets/img/practices.webp";
 import "../../css/pages/about.css";
 import logo from "../../assets/img/logo.png";
 

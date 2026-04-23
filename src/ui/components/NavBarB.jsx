@@ -20,7 +20,7 @@ export const NavBarB = () => {
             <Nav.Link
               onClick={() => window.scrollTo(0, 0)}
               as={Link}
-              to="/home"
+              to="/inicio"
             >
               Inicio
             </Nav.Link>

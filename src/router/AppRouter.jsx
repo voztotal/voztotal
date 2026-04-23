@@ -13,7 +13,8 @@ import {SalesSecond} from "../site/pages/SalesSecond.jsx";
 export const AppRouter = () => {
       return (
             <Routes>
-                  <Route path="/home" element={ <Home /> } />
+                  <Route path="/inicio" element={ <Home /> } />
+                  <Route path="/home" element={ <Navigate to="/inicio" /> } />
                   <Route path="/nosotros" element={ <About /> } />
                   <Route path="/clientes" element={ <Clients /> } />
                   <Route path="/testimonios" element={ <Testimonials /> } />
@@ -22,7 +23,7 @@ export const AppRouter = () => {
                   <Route path="/terminos-y-condiciones" element={ <Conditions /> } />
                   <Route path="/ventas-roberto" element={<SalesSecond/>} />
                   <Route path="/ventas-berenice" element={<SalesMain/>} />
-                  <Route path="/*" element={ <Navigate to="/home" /> } />
+                  <Route path="/*" element={ <Navigate to="/inicio" /> } />
             </Routes>
       )
 }

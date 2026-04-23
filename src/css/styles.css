@@ -124,11 +124,11 @@ ul {
 
 .banner--home {
       margin: 8rem 0;
-      background-image: linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(0, 0, 0, 0.6) 100%), url('../assets/img/planet.jpg');
+      background-image: linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(0, 0, 0, 0.6) 100%), url('../assets/img/planet.webp');
 }
 
 .banner--about {
-      background-image: linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(0, 0, 0, 0.7) 100%), url('../assets/img/bg-blue.jpg');
+      background-image: linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(0, 0, 0, 0.7) 100%), url('../assets/img/bg-blue.webp');
 }
 
 .banner__text {

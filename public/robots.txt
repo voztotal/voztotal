@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /ventas-berenice
+Disallow: /ventas-roberto
+
+Sitemap: https://voztotal.mx/sitemap.xml
